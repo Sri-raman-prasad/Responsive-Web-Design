@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  
+<head>
+  <link rel="stylesheet" href="styles.css"
+  >
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description"><i>Thank you for taking the time to help us improve the platform</i>
+</p>
+
+</head>
+<body>
+
+  <form id="survey-form">
+<!--Name Field-->    
+    <label for="name" id="name-label">Name
+      <input id="name" type="text"   placeholder="Enter Name" required>
+    </label>
+
+<!--Email field-->    
+
+    <label for="email" id="email-label">
+      Email <input id="email" type="email" placeholder="Enter Email" required </input>
+</label>
+
+<!--Number field-->
+
+      <label for="number" id="number-label"> Number
+        <input id="number" type="number" min="5" max="12" placeholder="Enter Phone Number">
+        </label>
+
+<!--dropdownmenu-->
+
+<label for="type">Which option best describes your current role?
+    <select id="dropdown">
+      <option>choose any option</option>
+      <option>full time</option>
+      <option>part-time</option>
+      <option>prefer not to say</option>
+     </select> 
+</label>      
+
+<!--radio box-->
+
+<div class="container">
+    radio block
+<div class="radio-group"> 
+  <input type="radio" id="radio1" name="block" value="option1">
+  <label for="radio1" class="i1">radio1</label>
+
+</div>
+<div class="radio-group">
+  <input type="radio" id="radio2" name="block" value="option2">
+  <label for="radio2">radio2</label>
+</div>
+</div>
+
+<!--check box-->
+
+<label for="check">Input box</label>
+<div class="box">  
+<input type ="checkbox" id="check1" value="option1">
+<label for="check1">option 1</label> </div>
+<div class="box">
+<input type="checkbox" id="check2" value="option2">
+<label for="check2">option 2</label>
+</div>
+<div class="box">  
+<input type="checkbox" id="check3" value="option3">
+<label for="check3">option3</label>
+</div>
+<br>
+
+<!--textarea-->
+
+<label for="text"> Any comments or suggestions?
+<textarea id="text" placeholder="enter your comment here">
+</textarea>
+</label>
+
+<!--submit button-->
+<input type="submit" id="submit">
+ 
+
+    </form>
+  </body>    
+
+</html>
